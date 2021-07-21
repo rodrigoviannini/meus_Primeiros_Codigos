@@ -10,4 +10,4 @@ while contador < 1000:
     fator *= 2
     contador += 1
 
-print("PG", round(somatoria, 3))
+print("PG", somatoria)
