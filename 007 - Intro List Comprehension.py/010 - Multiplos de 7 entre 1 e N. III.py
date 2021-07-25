@@ -1,0 +1,1 @@
+print([ numero for numero in range(7, int(input()) + 1, 7)])
