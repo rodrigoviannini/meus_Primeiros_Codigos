@@ -12,6 +12,6 @@ def contaLetra(frase, letra):
 
     return contagemLetra
 
-frase = "Bom dia , cOmo vaI vOce?"
+frase = "Bom dia , como vaI vOce?".title()
 letra = "o"
 print(f'\n\n || A qtde de letras "{letra}" na frase: "{frase}" são  de: {contaLetra(frase, letra)}', 'letras ||\n\n')
