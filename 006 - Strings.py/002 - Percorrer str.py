@@ -1,3 +1,3 @@
-nome = input("Digite um nome: ")
+nome = input("Digite um nome: ").upper()
 for i in range(len(nome)):
-    print(i,nome[i])
+    print(i, ' -> ',nome[i])
