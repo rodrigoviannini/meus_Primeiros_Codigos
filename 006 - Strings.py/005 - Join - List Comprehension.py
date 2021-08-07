@@ -1,0 +1,1 @@
+print(int("".join([str(elemento) for elemento in [2, 0, 2, 1]])))
