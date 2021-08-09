@@ -4,3 +4,5 @@ antonio         123456456
 carlos          91257581
 cesar           987458
 rosemary        789456125
+Rodrigo         5896659601
+Viannini        50014694

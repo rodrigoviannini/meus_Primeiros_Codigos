@@ -23,8 +23,8 @@ relatorio.write("ACME Inc.               Uso do espaço em disco pelos usuários
 relatorio.write("------------------------------------------------------------------------\n")
 relatorio.write("Nr.  Usuário        Espaço utilizado     % do uso\n\n")
 
-# listaUsuarios = sorted(listaUsuarios, key=lambda x : int(x[1]))
-listaUsuarios = sorted(listaUsuarios, key=lambda x : x[0])
+listaUsuarios = sorted(listaUsuarios, key=lambda x : int(x[1])) # Ordem: percentual 
+# listaUsuarios = sorted(listaUsuarios, key=lambda x : x[0]) # Ordem: nome
 
 for idx, colaborador in enumerate(listaUsuarios):
     texto = "{:<5d}{:<15}{:>13.2f} MB{:>12.2f}%\n".\
