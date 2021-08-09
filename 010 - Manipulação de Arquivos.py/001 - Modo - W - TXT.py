@@ -12,6 +12,7 @@ f.write("olá, let's code!")
 
 f.close()
 
+
 """MODOS: 
 
 r - lê um arquivo existente
