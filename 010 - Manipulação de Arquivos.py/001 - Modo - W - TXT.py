@@ -9,6 +9,7 @@ encoding='UTF-8': codificação 'universal' do arquivo
 f = open("ola.txt", "w", encoding="utf-8") # CUIDADO COM O W: ele sobrescreve, ou seja, perde o que foi feito anteriormente
 
 f.write("olá, let's code!")
+print("...")
 
 f.close()
 
